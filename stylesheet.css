@@ -84,20 +84,37 @@ body{
 #outtertabs{
 	margin: -280px 0px 0px 0px;
 }
-.active{
-	display: block;
-	visibility: visible;
-}
 
 #codeDIV{
-	visibility: hidden;
-	display: none;
 	background-color: #E3F5D5;
-	width: 300px;
-	height: 400px;
+	width: 500px;
+	height: 200px;
     position: absolute;
-    margin: 140px 0px 0px 120px;
-
+    margin: 50px 0px 0px 200px;
+}
+#codeTop{
+	width: 550px;
+	height: 250px;
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	position: absolute;
+	margin: 20px 0px 0px 175px;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+#codeImg{
+	width: 850px;
+	height: 638px;
+	border: 3px solid black;
+	border-radius: 5px;
+	position: absolute;
+	margin: 5px 50px 70px 145px;
+}
+#codeOutterTabs{
+	margin: -195px 0px 0px 90px;
 }
 #makeDIV{
 	visibility: hidden;
