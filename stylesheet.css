@@ -1,0 +1,128 @@
+
+body{
+	background-image: url(http://media.tumblr.com/tumblr_lsb01xU8Pw1qad55j.png); 
+	background-repeat: repeat;
+}
+#img{
+	width: 930px;
+	height: 639px;
+	border: 3px solid black;
+	border-radius: 5px;
+	position: absolute;
+	margin: 0px 50px 50px 50px;
+}
+#top{
+	width: 350px;
+	height: 450px;
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	position: absolute;
+	margin: 105px 0px 0px 95px;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+#home{
+	background-color: #E3F5D5;
+	width: 300px;
+	height: 400px;
+    position: absolute;
+    margin: 140px 0px 0px 120px;
+}
+#buttons{
+	background-color: #E3F5D5;
+	width: 55px;
+	height: 216px;
+	display: inline-block;
+	float: right;
+	position: relative;
+	margin: -5px -5px 0px 0px;
+	vertical-align: middle;
+	opacity: .75;
+    filter: alpha(opacity=75); 
+    -ms-filter: "alpha(opacity=75)"; 
+    -khtml-opacity: .75;
+    -moz-opacity: .75;
+}
+#facebook{
+	display: inline-block;
+	margin: auto;
+}
+
+#twitter{
+	display: inline-block;
+	margin: auto;
+}
+
+#github{
+	margin: auto;
+	display: inline-block;
+}
+#tumblr{
+	margin: auto;
+	display: inline-block;
+}
+.tab{
+	width: 70px;
+	height: 19px;
+	display: inline-block;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+.tab a {
+	text-decoration: none;
+	color: black;
+}
+.tab:hover{
+	background-color: #E3F5D5;
+	border: 1px dashed black;
+}
+#outtertabs{
+	margin: -280px 0px 0px 0px;
+}
+.active{
+	display: block;
+	visibility: visible;
+}
+
+#codeDIV{
+	visibility: hidden;
+	display: none;
+	background-color: #E3F5D5;
+	width: 300px;
+	height: 400px;
+    position: absolute;
+    margin: 140px 0px 0px 120px;
+
+}
+#makeDIV{
+	visibility: hidden;
+	display: none;
+	background-color: #E3F5D5;
+	width: 300px;
+	height: 400px;
+    position: absolute;
+    margin: 140px 0px 0px 120px;
+}
+#cosplayDIV{
+	visibility: hidden;
+	display: none;
+	background-color: #E3F5D5;
+	width: 300px;
+	height: 400px;
+    position: absolute;
+    margin: 140px 0px 0px 120px;
+}
+#volunteerDIV{
+	visibility: hidden;
+	display: none;
+	background-color: #E3F5D5;
+	width: 300px;
+	height: 400px;
+    position: absolute;
+    margin: 140px 0px 0px 120px;
+}
