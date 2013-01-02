@@ -81,70 +81,70 @@ body{
 	background-color: #E3F5D5;
 	border: 1px dashed black;
 }
-#outtertabs{
-	margin: -280px 0px 0px 0px;
-}
 
-#codeDIV{
-	background-color: #E3F5D5;
-	width: 500px;
-	height: 200px;
-    position: absolute;
-    margin: 50px 0px 0px 200px;
+.slider-wrap{
+width: 419px;
+position: absolute;
+top: 87px;
+left: 40px;
+}			
+.stripViewer .panelContainer .panel ul{
+text-align: left;
+margin: 0 15px 0 30px;
 }
-#codeTop{
-	width: 550px;
-	height: 250px;
-	background-color: #E3F5D5;
-	border: 1px solid black;
-	position: absolute;
-	margin: 20px 0px 0px 175px;
-	opacity: .50;
-    filter: alpha(opacity=50); 
-    -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .50;
-    -moz-opacity: .50;
+.stripViewer{
+position: relative;
+overflow: hidden;
+width: 419px;
+height: 285px;
 }
-#codeImg{
-	width: 850px;
-	height: 638px;
-	border: 3px solid black;
-	border-radius: 5px;
-	position: absolute;
-	margin: 5px 50px 70px 145px;
+.stripViewer .panelContainer{
+position: relative;
+left: 0;
+top: 0;
 }
-#codeOutterTabs{
-	margin: -195px 0px 0px 90px;
+.stripViewer .panelContainer .panel{
+float: left;
+height: 100%;
+position: relative;
+width: 419px;
 }
-#cosplayTop{
-	width: 340px;
-	height: 450px;
-	background-color: #E3F5D5;
-	border: 1px solid black;
-	position: absolute;
-	margin: 105px 0px 0px 803px;
-	opacity: .50;
-    filter: alpha(opacity=50); 
-    -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .50;
-    -moz-opacity: .50;
+.stripNavL, .stripNavR, .stripNav{
+display: none;
 }
-#cosplayDIV{
-	background-color: #E3F5D5;
-	width: 300px;
-	height: 400px;
-    position: absolute;
-    margin: 140px 0px 0px 823px;
-    vertical-align: middle; 
+.nav-thumb{
+border: 1px solid black;
+margin-right: 5px;
 }
-#cosplayImg{
-	width: 800px;
-	height: 533px;
-	border: 3px solid black;
-	border-radius: 5px;
-	position: absolute;
-	margin: 60px 0px 0px -7px;
+#movers-row{
+margin: -43px 0 0 62px;
 }
-#cosplayOutterTabs{
-	margin: -363px 0px 0px 0px;
+#movers-row div{
+width: 20%;
+float: left;
+}
+#movers-row div a.cross-link{
+float: right;
+}
+.photo-meta-data{
+background: url(images/transpBlack.png);
+padding: 10px; height: 30px;
+margin-top: -50px;
+position: relative;
+z-index:9999;
+color: white;
+}
+.photo-meta-data span{
+font-size: 13px;
+}
+.cross-link{
+display: block;
+width: 62px;
+margin-top: -14px;
+position: relative;
+padding-top: 15px;
+z-index:9999;
+}
+.active-thumb{
+background: transparent url(images/icon-uparrowsmallwhite.png) top center no-repeat;
 }
