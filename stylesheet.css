@@ -32,37 +32,63 @@ body{
     margin: 140px 0px 0px 120px;
 }
 #buttons{
-	background-color: #E3F5D5;
-	width: 55px;
-	height: 216px;
+	/*width: 55px;*/
+	/*height: 220px;*/
 	display: inline-block;
 	float: right;
 	position: relative;
 	margin: -5px -5px 0px 0px;
 	vertical-align: middle;
+}
+#facebook{
+	width: 56px;
+	height: 56px;
+	background-color: #E3F5D5;
+	display: inline-block;
+	margin: auto;
 	opacity: .75;
     filter: alpha(opacity=75); 
     -ms-filter: "alpha(opacity=75)"; 
     -khtml-opacity: .75;
     -moz-opacity: .75;
 }
-#facebook{
-	display: inline-block;
-	margin: auto;
-}
 
 #twitter{
+	width: 56px;
+	height: 56px;
+	background-color: #E3F5D5;
 	display: inline-block;
 	margin: auto;
+	opacity: .75;
+    filter: alpha(opacity=75); 
+    -ms-filter: "alpha(opacity=75)"; 
+    -khtml-opacity: .75;
+    -moz-opacity: .75;
 }
 
 #github{
+	width: 56px;
+	height: 56px;
+	background-color: #E3F5D5;
 	margin: auto;
 	display: inline-block;
+	opacity: .75;
+    filter: alpha(opacity=75); 
+    -ms-filter: "alpha(opacity=75)"; 
+    -khtml-opacity: .75;
+    -moz-opacity: .75;
 }
 #tumblr{
+	width: 56px;
+	height: 56px;
+	background-color: #E3F5D5;
 	margin: auto;
 	display: inline-block;
+	opacity: .75;
+    filter: alpha(opacity=75); 
+    -ms-filter: "alpha(opacity=75)"; 
+    -khtml-opacity: .75;
+    -moz-opacity: .75;
 }
 .tab{
 	width: 70px;
@@ -117,12 +143,12 @@ body{
 	margin: -195px 0px 0px 90px;
 }
 #cosplayTop{
-	width: 400px;
-	height: 270px;
+	width: 330px;
+	height: 470px;
 	background-color: #E3F5D5;
 	border: 1px solid black;
 	position: absolute;
-	margin: 60px 0px 0px 615px;
+	margin: 60px 0px 0px 810px;
 	opacity: .50;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
@@ -131,23 +157,25 @@ body{
 }
 #cosplayDIV{
 	background-color: #E3F5D5;
-	width: 370px;
-	height: 225px;
+	width: 300px;
+	height: 425px;
     position: absolute;
-    margin: 90px 0px 0px 633px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    margin: 90px 0px 0px 830px;
 }
 #cosplayImg{
-	width: 950px;
-	height: 633px;
+	width: 800px;
+	height: 533px;
+	/*border: 3px solid black;*/
+	/*border-radius: 5px;*/
+	position: absolute;
+	margin: 50px 0px 0px 5px;
+}
+#switchImg{
 	border: 3px solid black;
 	border-radius: 5px;
-	position: absolute;
-	margin: 20px 0px 0px 115px;
 }
 #cosplayOutterTabs{
-	margin: 65px 0px 0px 665px;
+	margin: 65px 0px 0px 827px;
 	position: absolute;
 }
 li a{
@@ -156,4 +184,7 @@ li a{
 }
 li a:hover{
 	color: red;
+}
+img{
+	border: 3px solid black;
 }
