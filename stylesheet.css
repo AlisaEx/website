@@ -1,4 +1,3 @@
-
 body{
 	background-image: url(http://media.tumblr.com/tumblr_lsb01xU8Pw1qad55j.png); 
 	background-repeat: repeat;
@@ -24,7 +23,7 @@ body{
     -khtml-opacity: .50;
     -moz-opacity: .50;
 }
-#home{
+#homeDIV{
 	background-color: #E3F5D5;
 	width: 300px;
 	height: 400px;
@@ -32,8 +31,6 @@ body{
     margin: 140px 0px 0px 120px;
 }
 #buttons{
-	/*width: 55px;*/
-	/*height: 220px;*/
 	display: inline-block;
 	float: right;
 	position: relative;
@@ -108,7 +105,7 @@ body{
 	border: 1px dashed black;
 }
 #outtertabs{
-	margin: -280px 0px 0px 0px;
+	margin: 113px 0px 0px 120px;
 }
 
 #codeDIV{
@@ -140,7 +137,7 @@ body{
 	margin: 5px 50px 70px 145px;
 }
 #codeOutterTabs{
-	margin: -195px 0px 0px 90px;
+	margin: 25px 0px 0px 300px;
 }
 #cosplayTop{
 	width: 330px;
@@ -183,4 +180,36 @@ li a:hover{
 }
 img{
 	border: 3px solid black;
+}
+#volunteerDIV{
+	background-color: #E3F5D5;
+	width: 350px;
+	height: 400px;
+    position: absolute;
+    margin: 50px 0px 0px 750px;
+}
+#volunteerTop{
+	width: 400px;
+	height: 450px;
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	position: absolute;
+	margin: 20px 0px 0px 725px;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+#volunteerImg{
+	width: 700px;
+	height: 614px;
+	border: 3px solid black;
+	border-radius: 5px;
+	position: absolute;
+	margin: 5px 50px 70px 10px;
+}
+#volunteerOutterTabs{
+	margin: 25px 0px 0px 780px;
+	position: absolute;
 }
