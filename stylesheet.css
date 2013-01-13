@@ -87,6 +87,19 @@ body{
     -khtml-opacity: .75;
     -moz-opacity: .75;
 }
+#linkedin{
+	width: 56px;
+	height: 56px;
+	background-color: #E3F5D5;
+	display: inline-block;
+	margin: auto;
+	opacity: .75;
+    filter: alpha(opacity=75); 
+    -ms-filter: "alpha(opacity=75)"; 
+    -khtml-opacity: .75;
+    -moz-opacity: .75;
+}
+}
 .tab{
 	width: 70px;
 	height: 19px;
